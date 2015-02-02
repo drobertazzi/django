@@ -10,3 +10,4 @@ urlpatterns = patterns('',
                            'article.views.language'),
                        url(r'^articles/all/$')
 )
+#for django_test/django_test
