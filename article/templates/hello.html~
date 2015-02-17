@@ -1,0 +1,9 @@
+<html>
+<body>
+
+Hi {{ name }},
+the template worked!
+
+</body>
+</html>
+
