@@ -46,6 +46,7 @@ INSTALLED_APPS = (
     'django.contrib.formtools',
     'userprofile',
     'storages',
+    'gunicorn',
 )
 LOGGING = {
     'version': 1,
