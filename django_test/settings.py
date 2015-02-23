@@ -48,25 +48,25 @@ INSTALLED_APPS = (
     'storages',
     'gunicorn',
 )
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'handlers': {
-        'mail_admins':{
-            'level': 'ERROR',
-            'class': 'django.utils.log.AdminEmailHandler',
-            'email_backend': 
-    'django.core.mail.backends.filebased.EmailBackend',
-        }
-    },
-    'loggers': {
-         'django.request': {
-             'handlers': ['mail_admins'],
-             'level': 'ERROR',
-             'propogate': True,
-         },
-    }
-}
+#LOGGING = {
+    #'version': 1,
+    #'disable_existing_loggers': False,
+    #'handlers': {
+        #'mail_admins':{
+            #'level': 'ERROR',
+            #'class': 'django.utils.log.AdminEmailHandler',
+            #'email_backend': 
+    #'django.core.mail.backends.filebased.EmailBackend',
+        #}
+    #},
+    #'loggers': {
+         #'django.request': {
+             #'handlers': ['mail_admins'],
+             #'level': 'ERROR',
+             #'propogate': True,
+         #},
+    #}
+#}
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
