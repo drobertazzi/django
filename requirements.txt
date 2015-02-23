@@ -13,4 +13,4 @@ python-mimeparse==0.1.4
 six==1.9.0
 South==1.0.2
 sqlparse==0.1.14
-
+wsgiref==0.1.2
