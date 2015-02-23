@@ -7,7 +7,7 @@ from django.contrib.formtools.wizard.views import SessionWizardView
 from django.core.mail import send_mail
 from django.core.urlresolvers import reverse
 import logging
-logr = logging.getLogger(__name__)
+logr = logging.getLogger('django')
 
 def login(request):
     c = {}
